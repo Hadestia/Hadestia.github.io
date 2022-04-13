@@ -1,4 +1,7 @@
 .architect
+.css
+.js
+.map
 bootstrap.css
 bootstrap.js
 bootstrap.json
