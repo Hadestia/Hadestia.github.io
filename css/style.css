@@ -1,0 +1,313 @@
+/*font-family: 'Baloo Bhaijaan 2', cursive;*/
+/*font-family: 'Kanit', sans-serif; */
+/*font-family: 'Roboto Mono', monospace; */
+
+/*Icons */
+.fas.fa-envelope{
+	color: #F692B2;
+}
+
+.fab.fa-facebook{
+	color: #6EC1D6;
+}
+
+.fab.fa-github{
+	color: #94CF95;
+}
+
+*{
+  overflow: hidden;
+}
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.highlight{
+  color:#e8491d;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  background: #81FF00;
+  text-align: left;
+}
+  
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:url("../graphics/night-city1.png") no-repeat;
+  background-position: top-left;
+  background-size: cover;
+  color:#ffffff;
+  padding-top:10px;
+  min-height:50px;
+  border-bottom: /*#e8491d*/#d0d4e1 2px solid;
+}
+
+.header-container{
+  width:80%;
+  margin: auto;
+  overflow:hidden;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:10px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:8px;
+  margin-bottom:8px;
+  border-radius: 25px;
+  padding: 5px 2px 5px 2px;
+  background-color: rgba(28,32,38,0.8);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+/* dropdown */
+.dropdown {
+  height: 28px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  padding: 0 20px 0 20px;
+  background: inherit;
+  color: #ffffff;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  transition: 0.5s;
+}
+
+.dropdown:hover{
+  border-radius: 5px 5px 0px 0px;
+  background-color: rgba(30,37,44,1.0);
+}
+
+.dropbtn:hover i{
+  color: #FF3A7B;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(28,32,38,1.0);
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 3px rgba(0,0,0,0.5);
+  z-index: 1;
+  border-radius: 0px 5px 5px 5px;
+  overflow: scroll;
+  transition: 0.3s;
+}
+
+.dropdown-content a {
+  float: none;
+  margin: auto;
+  padding: 12px 10px;
+  font-size: 0.8rem;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  color: #CCCCCC;
+}
+
+.dropdown-content a:hover {
+  background-color: #282d3e;
+  border-left: /*#e8491d*/#FF3A7B 5px solid;
+  color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #ffffff;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background: url("../graphics/night-city1.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  color:#ffffff;
+}
+
+#showcase h4{
+  margin-top:50px;
+  font-size: 20px;
+  background: #FF4C00;
+}
+
+#showcase h1{
+  font-size: 50px;
+  margin-bottom:10px;
+  background: #FF4C00;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
