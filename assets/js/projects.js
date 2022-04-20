@@ -30,9 +30,8 @@ const addProject = (obj) => {
     }
 }
 
-$(document).ready(function() {
-    //project controller
-    $.getJSON("assets/json/portfolio.json", 
+//project controller
+$.getJSON("assets/json/portfolio.json", 
     function (data) {
         //add filters
         $.each(data.filters, function (name, data) {
@@ -43,5 +42,4 @@ $(document).ready(function() {
         $.each(data.contents, function (key, obj) {
             addProject(obj);
         });
-    });
 });
