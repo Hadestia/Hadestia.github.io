@@ -44,14 +44,20 @@
   async function sendEmbedRequest(thisForm) {
       displayStatus(thisForm, 1)
       try {
+          var webhook = '';
           let name = thisForm.querySelector('#username').value;
           let email = thisForm.querySelector('#email').value;
           let subject = thisForm.querySelector('#subject').value;
           let mssg = thisForm.querySelector('#message').value;
           let embed = createWebhook(name, email, subject, mssg);
           
+          $.getJSON('assets/json/webhooks.json', function(data) {
+              console.log(data.portfolio);
+              webhook = data.portfolio;
+          });
+          
           const request = new XMLHttpRequest();
-          request.open("POST", ${{secrets.WEBHOOK_PORTFOLIO}});
+          request.open("POST", webhook);
           request.setRequestHeader('Content-type', 'application/json');
           await request.send(JSON.stringify(embed));
           displayStatus(thisForm, 3)
