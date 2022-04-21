@@ -1,0 +1,3 @@
+{
+    "portfolio": ${{secrets.WEBHOOK_PORTFOLIO}}
+}
