@@ -51,7 +51,7 @@
           let embed = createWebhook(name, email, subject, mssg);
           
           const request = new XMLHttpRequest();
-          request.open("POST", secrets.WEBHOOK_PORTFOLIO);
+          request.open("POST", ${{secrets.WEBHOOK_PORTFOLIO}});
           request.setRequestHeader('Content-type', 'application/json');
           await request.send(JSON.stringify(embed));
           displayStatus(thisForm, 3)
