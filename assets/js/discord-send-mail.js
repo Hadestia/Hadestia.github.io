@@ -51,7 +51,7 @@
           let embed = createWebhook(name, email, subject, mssg);
           
           const request = new XMLHttpRequest();
-          request.open("POST", 'https://discord.com/api/webhooks/939582584940269648/aSQquHS0PvU5T9wjnh6MRK7stJ7f43cjhFvPT0-1pHcSyCzTNujIgm4upBsqCef5MIUi');
+          request.open("POST", secrets.WEBHOOK_PORTFOLIO);
           request.setRequestHeader('Content-type', 'application/json');
           await request.send(JSON.stringify(embed));
           displayStatus(thisForm, 3)
