@@ -1,3 +1,6 @@
 {
-    "portfolio": ${{secrets.WEBHOOK_PORTFOLIO}}
+    "portfolio": {
+        "ref": "U2FsdGVkX18OY7GFSl+usRkJTDmVtOHutta5Uj+K9nQn48dCMHgpI9h5JWWWYR6e7CXNhZk/2Y3ZuROgJgTq5fVPmDQlwCkmQpWs9g65quNVLoVCghOsk1FM7S7PmVEEn25laIDz9QHKEKTwp87JjYf+mb+FeMTU/0mJCW1qvnCde5BOMfUTzcaBttzGRBmK",
+        "key": "U2FsdGVkX1/QGVaTHKN2BDBLYeX6ZvMf7rnfgThpofcc/xA+yeISlYMTw4isG1ZH"
+    }
 }
