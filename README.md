@@ -1,6 +1,6 @@
 ### About
 Hello!,
-This repository belongs to me as my portfolio, it shows my backgrounds and other contents relative to me.
+This repository belongs to me as my portfolio, it shows my backgrounds and other contents relative to me. Contact form from the site was fully functional instead of using php or other data based, it uses discord embedding for sending email and feeds.
 <hr>
 
 ### Credits
