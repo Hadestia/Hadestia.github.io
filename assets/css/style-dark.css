@@ -1293,7 +1293,7 @@ section .container{
 # Footer
 --------------------------------------------------------------*/
 
-#footer {
+/*#footer {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
@@ -1304,6 +1304,16 @@ section .container{
   z-index: 9999;
   background: #040b14;
   border-top: 2px solid rgba(255,255,255,0.2);
+}
+*/
+
+#footer {
+  position: static;
+  width: auto;
+  padding-right: 20px 15px;
+  background: #040b14;
+  border-top: 2px solid rgba(255,255,255,0.2);
+  color: #f4f6fd;
 }
 
 #footer .copyright {
@@ -1323,9 +1333,9 @@ section .container{
 }
 
 @media (max-width: 1199px) {
-  #footer {
+  /*#footer {
     position: static;
     width: auto;
-    padding-right: 20px 15px;
+    padding-right: 20px 15px;*/
   }
 }
