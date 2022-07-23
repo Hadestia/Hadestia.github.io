@@ -529,6 +529,10 @@ section .container{
   color: var(--violet);
 }
 
+.skills .skills-content{
+  padding: 20px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
