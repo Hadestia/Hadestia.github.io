@@ -164,7 +164,7 @@
         }
     }
     
-    $('img').bind('contextmenu', function(e){
+    $('img').on('contextmenu', function(e){
 
         return false;
 
